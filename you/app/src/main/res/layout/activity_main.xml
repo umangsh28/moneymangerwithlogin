@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectangle"
+    tools:context=".adapter.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="368dp"
+        android:layout_height="66dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/outline"
+        android:gravity="center"
+        android:text="Simple Expense Manager"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <EditText
+        android:id="@+id/IncText"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/outline"
+        android:gravity="center"
+        android:textColorHint="@color/teal_700"
+        android:hint="Enter Income"
+        android:textSize="21dp"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:id="@+id/ExpText"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="324dp"
+        android:background="@drawable/outline"
+        android:gravity="center"
+        android:textColorHint="@color/teal_700"
+        android:hint="Enter Expense"
+        android:textSize="21dp"
+        android:textStyle="italic" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Btns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="508dp"
+        android:backgroundTint="#0C3C37"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_baseline_playlist_add_24"
+        android:text="Submit"
+        android:textAlignment="center" />
+
+
+</FrameLayout>
